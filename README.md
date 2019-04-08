@@ -18,7 +18,7 @@ The main propose of this project includes **2** parts:
 
 **Be aware, this website is using anonymous mode to protect the people who submit the reports**
 
-[inspired by 996.ICU (https://996.icu)
+[inspired by 996.ICU (https://996.icu)]
 =======
 
 Related reports:
