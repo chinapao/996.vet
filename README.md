@@ -14,6 +14,8 @@ Recently, a vast amount of Chinese Companies announced their working policy: **9
 **996** companies treat the employee like animals. They need a cure!
 The main propose of this project includes **2** parts:
 -We are calling a campaign to fight against those improper treatment to those employee. License could be refused to those companies who do not respect to applicable laws and regulations. **refer to 996 license(https://github.com/996icu/996.ICU/blob/master/LICENSE)**
+-Due to the reason those 996 companies use terms like "volunteer", "dedicate" in order to avoid the legal issue, I are here to collect any evidence of them and help to report it to **Labor and Social Security Bureau**. You can submit your report and evidence here **（https://996.vet)**
+**Be aware, this website is using anonymous mode to protect the people who submit the reports. **
 
 [inspired by 996.ICU (https://996.icu)
 
