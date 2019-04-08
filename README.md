@@ -18,6 +18,7 @@ The main propose of this project includes **2** parts:
 **Be aware, this website is using anonymous mode to protect the people who submit the reports. **
 
 [inspired by 996.ICU (https://996.icu)
+=======
 
 Related reports:
 ---
@@ -35,15 +36,17 @@ Related reports:
 * *ZDNet:* [996.ICU : Sur Github, les développeurs chinois donnent de la voix](https://www.zdnet.fr/actualites/996icu-sur-github-les-developpeurs-chinois-donnent-de-la-voix-39882985.htm). 3 April, 2019.
 
 
-To help the development of 996.vet:
+
+[To help the development of 996.vet:]
 ---
-Feel Free to copy this project and help us to translate into different languages.
-Submit your report with evidence so we can work with government bureau to protect the benefits of employee.
-Spreed this project over internet and let more people understand that they can do something to improve the situation.
+-Feel Free to copy this project and help us to translate into different languages.
+-Submit your report with evidence so we can work with government bureau to protect the benefits of employee.
+-Spreed this project over internet and let more people understand that they can do something to improve the situation.
+
 
 Community powers
 ---
- - [955.ICU](https://996.icu) is the starter of 996 projects and the founder of 996 license.
+ - [996.ICU](https://996.icu) Starter and founder of the 996 projects.
 
  - [955.WLB](https://github.com/formulahendry/955.WLB) is a repo that maintains a whitelist of 955 work–life balanced companies. It promotes people to flee 996 and join 955.
 
@@ -56,16 +59,7 @@ Community powers
  - [996.Leave](https://github.com/623637646/996.Leave) encourage & introduce working overseas.
 
 
-<<<<<<< HEAD
-=======
-Where are the issues?
----
 
-Even with interaction limits on, the issues area was totally out of control.
-So I **personally** decided to switch it off, not by GitHub or others.
-
-
->>>>>>> 0ec5ffbb10ab06f6aa89bbd3d32c951b4037b247
 License
 ---
 
