@@ -56,6 +56,16 @@ Community powers
  - [996.Leave](https://github.com/623637646/996.Leave) encourage & introduce working overseas.
 
 
+<<<<<<< HEAD
+=======
+Where are the issues?
+---
+
+Even with interaction limits on, the issues area was totally out of control.
+So I **personally** decided to switch it off, not by GitHub or others.
+
+
+>>>>>>> 0ec5ffbb10ab06f6aa89bbd3d32c951b4037b247
 License
 ---
 
