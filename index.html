@@ -1,76 +1,536 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Coming Soon-996.VET</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<meta name="format-detection" content="telephone=no">
-		<meta name="apple-mobile-web-app-capable" content="yes">
-
-		<!-- Vendors-->
-		<link rel="stylesheet" type="text/css" href="assets/vendors/bootstrap/grid.css">
-		<!-- App & fonts-->
-		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400">
-		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/coming-soon-01.css">
-
-		<!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<![endif]-->
+		<title>996.VET 维护996企业员工的合法权益</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	
-	<body>
-		<div class="page-wrap">
-			<!-- Content-->
-			<div class="md-content">
-				
-				<!-- Section -->
-				<section class="awe-section awe-skin-dark display-flex-center" style="background-image:url(&quot;assets/img/bg/coming-soon.jpg&quot;);height:100vh;">
-					<div class="awe-overlay"></div>
-					<div class="container">
-						
-						<!-- comming-soon-01 -->
-						<div class="comming-soon-01">
-							<h3 class="comming-soon-01__title">我们正在为上线做准备</h3>
-							<p class="comming-soon-01__desc">我们的主要目标是帮助“996”企业的员工改善工作环境，创建和谐、可持续发展的IT行业</p>
-							<p class="comming-soon-01__desc">我们希望大家提交996企业的相应证据，我们会将收集到的证据提交给有关部门，帮助广大员工保障合法权益</p>
-							<p class="comming-soon-01__desc">我们的网站采用匿名和隐私模式，保护举报者的个人信息安全</p>
-							
-							<!-- countdown__module hide undefined -->
-							<div class="countdown__module hide undefined" data-date="2019/4/10">
-								<p><span>%D</span> 天</p>
-								<p><span>%H</span> 小时</p>
-								<p><span>%M</span> 分</p>
-								<p><span>%S</span> 秒</p>
-							</div><!-- End / countdown__module hide undefined -->
-				<!-- Place this tag where you want the button to render. -->
-				<div>
-				<div style="z-index:999">
-				<center>
-				<a class="github-button" href="https://github.com/chinapao/996.vet" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star chinapao/996.vet on GitHub" style="z-index:999">Star</a>
-				</center>
-				<!-- Place this tag in your head or just before your close body tag. -->
-				<script async defer src="https://buttons.github.io/buttons.js"></script>
-				</div>
-				<!--div id="particles-js"></div-->
-				</div>
-						</div><!-- End / comming-soon-01 -->
-						
-					</div>
-					
-				</section>
-				<!-- End / Section -->
+	<body class="is-preload">
 
-			</div>
-			<!-- End / Content-->
-		</div>
-				
-		<!-- Vendors-->
-		<script type="text/javascript" src="assets/vendors/_jquery/jquery.min.js"></script>
-		<script type="text/javascript" src="assets/vendors/jquery.countdown/jquery.countdown.min.js"></script>
-		<script type="text/javascript" src="assets/vendors/particles.js/particles.min.js"></script>
-		<!-- main script-->
-		<script type="text/javascript" src="assets/js/main.js"></script>
-		
+		<!-- Header -->
+			<section id="header">
+				<div class="inner">
+					<span class="icon major fa-cloud"></span>
+					<h1>
+					<strong>“996”工作制</strong></br>
+					即每天早 9 点到岗，一直工作到晚上 9 点，每周工作 6 天。
+					</h1>
+					<p>"996"工作制度远超中国大陆法律规定的最高工作小时数<br />
+					而“996”企业通常以“自愿”、“号召"等词汇来规避法律风险</br>
+					"996”员工通常因各种原因无法维护自身的合法利益</br>
+					<strong>我们的目标是收集和整理“996”企业的违法证据，为“996”员工谋取合法利益</strong>
+					</p>
+						<li><a class="github-button" href="https://github.com/chinapao/996.vet" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star chinapao/996.vet on GitHub" style="z-index:999">查看项目</a></li>
+						<!-- Place this tag in your head or just before your close body tag. -->
+						<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+					<ul class="actions special">
+						<li><a href="#one" class="button scrolly">了解您能做什么</a></li>
+					</ul>
+
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="main style1">
+				<div class="container">
+					<div class="row gtr-150">
+						<div class="col-6 col-12-medium">
+							<header class="major">
+								<h2>我们创建这个项目的目的：</h2>
+							</header>
+							<p  align="left">
+							-我们号召各位开发者以及企业不再将软件或者源码授权给这些无视员工身心健康，无视国法法力法规的企业。我们号召一个新的授权协议<a href="https://github.com/chinapao/996.vet/blob/master/anti-996.license" target=blank> <strong>反996协议</strong></a>  </br>
+							</br>
+							-由于这些企业通常以“自愿”“号召”等名义强制员工加班，员工很难以实质性的证据保障自己的权益，我们在此收集广大受害者的举报，您可以提交响应的聊天记录、内部邮件、文件、录音等。我们将会把收集的信息提交给国家劳动保障部门 <a href="https://996.vet/community/index.php?u=/category/%E4%B8%BE%E6%8A%A5%E4%B8%93%E5%8C%BA-report-a-996-company" target=blank><strong>点击提交</strong></a></br>
+							</br>
+							-我们致力于保护举报者的信息安全，网站采用隐私模式，并且我们<strong>不会在任何渠道询问或者获取您的个人信息</strong></br>
+							</p>
+						</div>
+						<div class="col-6 col-12-medium imp-medium">
+							<span class="image fit"><img src="images/996icu.PNG" alt="" /></span>
+						</div>
+					</div>
+				</div>
+			</section>
+		<!-- Four -->
+			<section id="four" class="main style2 special">
+				<div class="container">
+					<header class="major">
+						<h2>您有信息要提交？</h2>
+					</header>
+					<p>您可以在我们的平台提交信息和证据</br>或者和其他用户一起讨论和反对996工作制度</p>
+					<ul class="actions special">
+						<li><a href="https://996.vet/community/index.php?u=/category/%E4%B8%BE%E6%8A%A5%E4%B8%93%E5%8C%BA-report-a-996-company" class="button wide primary">立即举报</a></li>
+						<li><a href="https://996.vet/community/" class="button wide">加入讨论社区</a></li>
+					</ul>
+				</div>
+			</section>
+
+		<!-- Three -->
+			<section id="three" class="main style1 special">
+				<div class="container">
+					<header class="major">
+						<h2>相关信息</h2>
+					</header>
+					<p></p>
+					<div class="row gtr-150">
+						<div class="col-4 col-12-medium">
+							<span class="image fit"><img src="images/996.png" alt="" /></span>
+							<h3>996企业黑名单</h3>
+							<p>点击了解现有的996企业黑名单</br>我们会根据举报持续更新</p>
+							<ul class="actions special">
+								<li><a href="#" class="button">立即查看</a></li>
+							</ul>
+						</div>
+						<div class="col-4 col-12-medium">
+							<span class="image fit"><img src="images/github.png" alt="" /></span>
+							<h3>项目信息</h3>
+							<p>我们的项目源码发布在Github上，您可以前往查看和提交修改</p>
+							<ul class="actions special">
+								<li><a href="#" class="button">现在前往</a></li>
+							</ul>
+						</div>
+						<div class="col-4 col-12-medium">
+							<span class="image fit"><img src="images/news.jpg" alt="" /></span>
+							<h3>相关报道</h3>
+							<p>想了解相关媒体对于996企业的报道么？我们汇总了一些或许您感兴趣的</p>
+							<ul class="actions special">
+								<li><a href="#" class="button">立即查看</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			
+		<!-- Two -->
+			<section id="two" class="main style2">
+				<div class="container" align="left" >
+				<header class="major">
+				<h1>相关法律法规</h1>
+				</header>
+<h3>《中华人民共和国宪法》</h3>
+<p>第二章第四十三条：</br>
+中华人民共和国劳动者有休息的权利。</br>
+国家发展劳动者休息和休养的设施，规定职工的工作时间和休假制度。
+
+<h3>《中华人民共和国劳动法》</h3>
+<p>第一章第三条：
+劳动者享有平等就业和选择职业的权利、取得劳动报酬的权利、休息休假的权利、获得劳动安全卫生保护的权利、接受职业技能培训的权利、享受社会保险和福利的权利、提请劳动争议处理的权利以及法律规定的其他劳动权利。
+
+<p>第四章第三十六条：
+国家实行劳动者每日工作时间不超过八小时、平均每周工作时间不超过四十四小时的工时制度。
+
+<p>第四章第三十九条：
+企业因生产特点不能实行本法第三十六条、第三十八条规定的，经劳动行政部门批准，可以实行其他工作和休息办法。
+
+<p>第四章第四十一条：
+用人单位由于生产经营需要，经与工会和劳动者协商后可以延长工作时间，一般每日不得超过一小时；因特殊原因需要延长工作时间的，在保障劳动者身体健康的条件下延长工作时间每日不得超过三小时，但是每月不得超过三十六小时。
+
+<p>第四章第四十三条：
+用人单位不得违反本法规定延长劳动者的工作时间。
+
+<p>第四章第四十四条：
+有下列情形之一的，用人单位应当按照下列标准支付高于劳动者正常工作时间工资的工资报酬：</br>
+（一）安排劳动者延长工作时间的，支付不低于工资的百分之一百五十的工资报酬；</br>
+（二）休息日安排劳动者工作又不能安排补休的，支付不低于工资的百分之二百的工资报酬；</br>
+（三）法定休假日安排劳动者工作的，支付不低于工资的百分之三百的工资报酬。
+
+<p>第十二章第九十条：
+用人单位违反本法规定，延长劳动者工作时间的，由劳动行政部门给予警告，责令改正，并可以处以罚款。
+
+<p>第十二章第九十一条：
+用人单位有下列侵害劳动者合法权益情形之一的，由劳动行政部门责令支付劳动者的工资报酬、经济补偿，并可以责令支付赔偿金：</br>
+……</br>
+（二）拒不支付劳动者延长工作时间工资报酬的；</br>
+……
+
+<h3>《中华人民共和国劳动合同法》</h3>
+<p>第三章第三十一条：
+用人单位应当严格执行劳动定额标准，不得强迫或者变相强迫劳动者加班。用人单位安排加班的，应当按照国家有关规定向劳动者支付加班费。
+
+<p>第五章第六十二条：
+用工单位应当履行下列义务：</br>
+……</br>
+（三）支付加班费、绩效奖金，提供与工作岗位相关的福利待遇；</br>
+……
+
+<p>第七章第八十五条：
+用人单位有下列情形之一的，由劳动行政部门责令限期支付劳动报酬、加班费或者经济补偿；劳动报酬低于当地最低工资标准的，应当支付其差额部分；逾期不支付的，责令用人单位按应付金额百分之五十以上百分之一百以下的标准向劳动者加付赔偿金：</br>
+（一）未按照劳动合同的约定或者国家规定及时足额支付劳动者劳动报酬的；</br>
+（二）低于当地最低工资标准支付劳动者工资的；</br>
+（三）安排加班不支付加班费的；
+……
+
+<h3>《国务院关于职工工作时间的规定》</h3>
+<p>第三条：
+职工每日工作8小时、每周工作40小时。
+
+第六条：
+任何单位和个人不得擅自延长职工工作时间。因特殊情况和紧急任务确需延长工作时间的，按照国家有关规定执行。
+
+<h3>《劳动部贯彻〈国务院关于职工工作时间的规定〉的实施办法》</h3>
+<p>第三条：
+职工每日工作8小时、每周工作40小时。实行这一工时制度，应保证完成生产和工作任务，不减少职工的收入。
+
+<p>第六条：
+任何单位和个人不得擅自延长职工工作时间。企业由于生产经营需要而延长职工工作时间的，应按<strong>《中华人民共和国劳动法》</strong>第四十一条的规定执行。
+
+<p>第八条：
+根据本办法第六条、第七条延长工作时间的，企业应当按照<strong>《中华人民共和国劳动法》</strong>第四十四条的规定，给职工支付工资报酬或安排补休。
+
+				</div>
+			</section>
+
+
+
+
+		<!-- Five -->
+		<!--
+			<section id="five" class="main style1">
+				<div class="container">
+					<header class="major special">
+						<h2>Elements</h2>
+					</header>
+
+					<section>
+						<h4>Text</h4>
+						<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+						This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+						This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+						<hr />
+						<header>
+							<h4>Heading with a Subtitle</h4>
+							<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+						</header>
+						<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+						<header>
+							<h5>Heading with a Subtitle</h5>
+							<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+						</header>
+						<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+						<hr />
+						<h2>Heading Level 2</h2>
+						<h3>Heading Level 3</h3>
+						<h4>Heading Level 4</h4>
+						<h5>Heading Level 5</h5>
+						<h6>Heading Level 6</h6>
+						<hr />
+						<h5>Blockquote</h5>
+						<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+						<h5>Preformatted</h5>
+						<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+print 'Iteration ' + i;
+deck.shuffle();
+i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+					</section>
+
+					<section>
+						<h4>Lists</h4>
+						<div class="row">
+							<div class="col-6 col-12-medium">
+								<h5>Unordered</h5>
+								<ul>
+									<li>Dolor pulvinar etiam.</li>
+									<li>Sagittis adipiscing.</li>
+									<li>Felis enim feugiat.</li>
+								</ul>
+								<h5>Alternate</h5>
+								<ul class="alt">
+									<li>Dolor pulvinar etiam.</li>
+									<li>Sagittis adipiscing.</li>
+									<li>Felis enim feugiat.</li>
+								</ul>
+							</div>
+							<div class="col-6 col-12-medium">
+								<h5>Ordered</h5>
+								<ol>
+									<li>Dolor pulvinar etiam.</li>
+									<li>Etiam vel felis viverra.</li>
+									<li>Felis enim feugiat.</li>
+									<li>Dolor pulvinar etiam.</li>
+									<li>Etiam vel felis lorem.</li>
+									<li>Felis enim et feugiat.</li>
+								</ol>
+								<h5>Icons</h5>
+								<ul class="icons">
+									<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+								</ul>
+							</div>
+						</div>
+						<h5>Actions</h5>
+						<div class="row">
+							<div class="col-6 col-12-medium">
+								<ul class="actions">
+									<li><a href="#" class="button primary">Default</a></li>
+									<li><a href="#" class="button">Default</a></li>
+								</ul>
+								<ul class="actions small">
+									<li><a href="#" class="button primary small">Small</a></li>
+									<li><a href="#" class="button small">Small</a></li>
+								</ul>
+								<ul class="actions stacked">
+									<li><a href="#" class="button primary">Default</a></li>
+									<li><a href="#" class="button">Default</a></li>
+								</ul>
+								<ul class="actions stacked">
+									<li><a href="#" class="button primary small">Small</a></li>
+									<li><a href="#" class="button small">Small</a></li>
+								</ul>
+							</div>
+							<div class="col-6 col-12-medium">
+								<ul class="actions stacked">
+									<li><a href="#" class="button primary fit">Default</a></li>
+									<li><a href="#" class="button fit">Default</a></li>
+								</ul>
+								<ul class="actions stacked">
+									<li><a href="#" class="button primary small fit">Small</a></li>
+									<li><a href="#" class="button small fit">Small</a></li>
+								</ul>
+							</div>
+						</div>
+					</section>
+
+					<section>
+						<h4>Table</h4>
+						<h5>Default</h5>
+						<div class="table-wrapper">
+							<table>
+								<thead>
+									<tr>
+										<th>Name</th>
+										<th>Description</th>
+										<th>Price</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Item One</td>
+										<td>Ante turpis integer aliquet porttitor.</td>
+										<td>29.99</td>
+									</tr>
+									<tr>
+										<td>Item Two</td>
+										<td>Vis ac commodo adipiscing arcu aliquet.</td>
+										<td>19.99</td>
+									</tr>
+									<tr>
+										<td>Item Three</td>
+										<td> Morbi faucibus arcu accumsan lorem.</td>
+										<td>29.99</td>
+									</tr>
+									<tr>
+										<td>Item Four</td>
+										<td>Vitae integer tempus condimentum.</td>
+										<td>19.99</td>
+									</tr>
+									<tr>
+										<td>Item Five</td>
+										<td>Ante turpis integer aliquet porttitor.</td>
+										<td>29.99</td>
+									</tr>
+								</tbody>
+								<tfoot>
+									<tr>
+										<td colspan="2"></td>
+										<td>100.00</td>
+									</tr>
+								</tfoot>
+							</table>
+						</div>
+
+						<h5>Alternate</h5>
+						<div class="table-wrapper">
+							<table class="alt">
+								<thead>
+									<tr>
+										<th>Name</th>
+										<th>Description</th>
+										<th>Price</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Item One</td>
+										<td>Ante turpis integer aliquet porttitor.</td>
+										<td>29.99</td>
+									</tr>
+									<tr>
+										<td>Item Two</td>
+										<td>Vis ac commodo adipiscing arcu aliquet.</td>
+										<td>19.99</td>
+									</tr>
+									<tr>
+										<td>Item Three</td>
+										<td> Morbi faucibus arcu accumsan lorem.</td>
+										<td>29.99</td>
+									</tr>
+									<tr>
+										<td>Item Four</td>
+										<td>Vitae integer tempus condimentum.</td>
+										<td>19.99</td>
+									</tr>
+									<tr>
+										<td>Item Five</td>
+										<td>Ante turpis integer aliquet porttitor.</td>
+										<td>29.99</td>
+									</tr>
+								</tbody>
+								<tfoot>
+									<tr>
+										<td colspan="2"></td>
+										<td>100.00</td>
+									</tr>
+								</tfoot>
+							</table>
+						</div>
+					</section>
+
+					<section>
+						<h4>Buttons</h4>
+						<ul class="actions">
+							<li><a href="#" class="button primary">Primary</a></li>
+							<li><a href="#" class="button">Default</a></li>
+						</ul>
+						<ul class="actions">
+							<li><a href="#" class="button large">Large</a></li>
+							<li><a href="#" class="button">Default</a></li>
+							<li><a href="#" class="button small">Small</a></li>
+						</ul>
+						<ul class="actions fit">
+							<li><a href="#" class="button fit">Fit</a></li>
+							<li><a href="#" class="button primary fit">Fit</a></li>
+							<li><a href="#" class="button fit">Fit</a></li>
+						</ul>
+						<ul class="actions fit small">
+							<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+							<li><a href="#" class="button fit small">Fit + Small</a></li>
+							<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+						</ul>
+						<ul class="actions">
+							<li><a href="#" class="button primary icon fa-download">Icon</a></li>
+							<li><a href="#" class="button icon fa-download">Icon</a></li>
+						</ul>
+						<ul class="actions">
+							<li><span class="button primary disabled">Disabled</span></li>
+							<li><span class="button disabled">Disabled</span></li>
+						</ul>
+					</section>
+
+					<section>
+						<h4>Form</h4>
+						<form method="post" action="#">
+							<div class="row gtr-uniform gtr-50">
+								<div class="col-6 col-12-xsmall">
+									<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+								</div>
+								<div class="col-6 col-12-xsmall">
+									<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+								</div>
+								<div class="col-12">
+									<select name="demo-category" id="demo-category">
+										<option value="">- Category -</option>
+										<option value="1">Manufacturing</option>
+										<option value="1">Shipping</option>
+										<option value="1">Administration</option>
+										<option value="1">Human Resources</option>
+									</select>
+								</div>
+								<div class="col-4 col-12-small">
+									<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+									<label for="demo-priority-low">Low</label>
+								</div>
+								<div class="col-4 col-12-small">
+									<input type="radio" id="demo-priority-normal" name="demo-priority">
+									<label for="demo-priority-normal">Normal</label>
+								</div>
+								<div class="col-4 col-12-small">
+									<input type="radio" id="demo-priority-high" name="demo-priority">
+									<label for="demo-priority-high">High</label>
+								</div>
+								<div class="col-6 col-12-small">
+									<input type="checkbox" id="demo-copy" name="demo-copy">
+									<label for="demo-copy">Email me a copy</label>
+								</div>
+								<div class="col-6 col-12-small">
+									<input type="checkbox" id="demo-human" name="demo-human" checked>
+									<label for="demo-human">Not a robot</label>
+								</div>
+								<div class="col-12">
+									<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+								</div>
+								<div class="col-12">
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</div>
+							</div>
+						</form>
+					</section>
+
+					<section>
+						<h4>Image</h4>
+						<h5>Fit</h5>
+						<div class="box alt">
+							<div class="row gtr-uniform gtr-50">
+								<div class="col-12"><span class="image fit"><img src="images/pic06.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+							</div>
+						</div>
+						<h5>Left &amp; Right</h5>
+						<p><span class="image left"><img src="images/pic05.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+						<p><span class="image right"><img src="images/pic05.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+					</section>
+
+				</div>
+			</section>
+		-->
+
+		<!-- Footer -->
+			<section id="footer">
+				<ul class="icons">
+					<li><a href="https://github.com/chinapao/996.vet" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+					<li><a class="github-button" href="https://github.com/chinapao/996.vet" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star chinapao/996.vet on GitHub" style="z-index:999">查看项目</a></li>
+					<!-- Place this tag in your head or just before your close body tag. -->
+					<script async defer src="https://buttons.github.io/buttons.js"></script>
+					</li>
+					
+					<li><a href="#" class="icon alt fa-comments-o"><span class="label">Community</span></a></li>
+					<li><a href="https://996.vet/community/">讨论社区</a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; <a href="https://github.com/chinapao/996.vet">996.VET</a></li><li>Inspired by<a href="https://996.icu">996.ICU</a></li>
+				</ul>
+			</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
 	</body>
 </html>
